@@ -28,21 +28,21 @@ Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), você deve el
 ```mermaid
 classDiagram
     class ReprodutorMusical {
-        +tocar() : void
-        +pausar() : void
-        +selecionarMusica() : void
+        +tocar() void
+        +pausar() void
+        +selecionarMusica() void
     }
 
     class AparelhoTelefonico {
-        +ligar() : void
-        +atender() : void
-        +iniciarCorreioVoz() : void
+        +ligar() void
+        +atender() void
+        +iniciarCorreioVoz() void
     }
 
     class NavegadorInternet {
-        +exibirPagina() : void
-        +adicionarNovaAba() : void
-        +atualizarPagina() : void
+        +exibirPagina() void
+        +adicionarNovaAba() void
+        +atualizarPagina() void
     }
 
     class iPhone {
