@@ -47,6 +47,10 @@ classDiagram
 
     class iPhone {
     }
+
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
     
     class Ipod {
     }
@@ -57,9 +61,6 @@ classDiagram
     class Safari {
     }
 
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
     Ipod --> ReprodutorMusical
     Telefone --> AparelhoTelefonico
     Safari --> NavegadorInternet
